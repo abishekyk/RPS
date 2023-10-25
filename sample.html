@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./script/fun.js"></script>
+  </head>
+<body>
+  <div class="top">
+      <a href="./index.html">
+        <img class="logo" src="./IMAGES/rock+paper+scissors+FINALS_Full+logo+-+landscape.png" alt="">
+      </a>
+      <button class="htp" onclick="htp()">How to play ?</button>
+  </div>
+  <div class="content">
+    <div>
+      <img class="fire1" src="./IMAGES/26nC.gif" alt="">
+      <img class="fire" src="./IMAGES/26nC.gif" alt="">
+      <div class="text">
+        <center>
+          <h1>PICK ONE</h1>
+
+          <button  onclick="
+            playGame('rock');
+          "> <img class="selected" src="./IMAGES/rock.png" alt=""></button>
+
+          <button  onclick="
+            playGame('paper');
+          "><img class="selected" src="./IMAGES/paper.png" alt=""></button>
+
+          <button   onclick="
+            playGame('scissors');
+          "><img class="selected" src="./IMAGES/scissors.png" alt=""></button>
+
+          
+          <p class="js-moves"> </p>
+          <p class="js-result"></p>
+          <p class="js-score"></p>
+
+          <button class="Reset" onclick="
+            score.wins = 0;
+            score.losses = 0;
+            score.ties = 0;
+            localStorage.removeItem('score');
+            updateScoreElement();
+          ">Reset Score</button>
+      </center>
+  </div>
+</div>
+</div>
+</body>
+</html>

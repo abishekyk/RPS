@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+}
+body{
+ background-color:black;   
+}
+.logo{
+    width: 30%;
+    height: 120px;
+    padding-left: 550px;
+    padding-top: 10px;
+}
+.res{
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.562);
+    height: 50px;
+    width: 50px;
+}
+.selected{
+    height: 50px;
+    width: 50px;
+}
+.top{
+    background-color: white;
+    height: 150px;
+}
+.content{
+    padding-top: 100px;
+    color: white;
+
+}
+p{
+    margin-top: 10px;
+    
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+.js-result{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: X-large;
+}
+.js-score{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: medium;
+}
+.js-moves{ 
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: medium;
+}
+.Reset{
+    margin-top: 20px;
+    color: white;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+.Reset:hover{
+    background-color: white;
+    color: black;
+}
+button{
+    background-color: transparent;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: white;
+    height: 80px ;
+    width: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+button:hover{
+    box-shadow: inset 0px 0px 50px white;
+}
+button:active{
+    background-color: red;
+}
+.text{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.fire{
+    position: absolute;
+    top:35%;
+    left:65%;
+}
+.htp{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: large;
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
+    height: 60px;
+    width: 150px;
+    background-color: black;
+}
+.htp:active{
+    background-color: rgb(251, 251, 251);
+    color: black;
+}

@@ -1,0 +1,56 @@
+.logo{
+    height: 200px;
+    width: 40%;
+    margin-bottom: 10px;
+}
+.text{
+    margin-top: 20px;
+    width: 800px;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    margin-top: 7%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    transition: 0.15s;
+    font-size: x-large;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    transition: 0.15s;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.design{
+    position: absolute;
+    top: 70%;
+    left: 5px;
+    width: 200px;
+    
+
+}
+.ghost{
+    position: absolute;
+    top: 73%;
+    width: 150px;
+    height: 150px;
+}
+
